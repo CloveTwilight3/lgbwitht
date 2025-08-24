@@ -1,8 +1,41 @@
+/* Comic Code font declarations */
+@font-face {
+    font-family: 'Comic Code';
+    src: url('https://plural.clovetwilight3.co.uk/fonts/ComicCode-Regular_2022-05-24-151938_hsmz.woff2') format('woff2'),
+         url('https://plural.clovetwilight3.co.uk/fonts/ComicCode-Regular_2022-05-24-151938_hsmz.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Comic Code';
+    src: url('https://plural.clovetwilight3.co.uk/fonts/ComicCode-Italic_2022-05-24-151939_rdtu.woff2') format('woff2'),
+         url('https://plural.clovetwilight3.co.uk/fonts/ComicCode-Italic_2022-05-24-151939_rdtu.woff') format('woff');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Comic Code';
+    src: url('https://plural.clovetwilight3.co.uk/fonts/ComicCode-Medium_2022-05-24-151941_ugqm.woff2') format('woff2'),
+         url('https://plural.clovetwilight3.co.uk/fonts/ComicCode-Medium_2022-05-24-151941_ugqm.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Comic Code';
+    src: url('https://plural.clovetwilight3.co.uk/fonts/ComicCode-Bold_2022-05-24-152309_zqkm.woff2') format('woff2'),
+         url('https://plural.clovetwilight3.co.uk/fonts/ComicCode-Bold_2022-05-24-152309_zqkm.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Courier New', monospace;
-  background: linear-gradient(135deg, #7f7fd5, #86a8e7, #91eae4);
+  font-family: 'Comic Code', monospace;
+  background: linear-gradient(135deg, #2a1b3d, #44318d, #6b5b95);
   color: white;
   text-align: center;
   min-height: 100vh;
@@ -25,25 +58,25 @@ body {
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  border: 4px solid #7affc7;
+  border: 4px solid #f8d7da;
   margin-bottom: 1rem;
 }
 
 h1 {
   font-size: 2.5rem;
   margin: 0;
-  color: #aaffcc;
+  color: #f8d7da;
 }
 
 .subtitle {
   font-size: 1.2rem;
   margin-top: 0.5rem;
-  color: #fff;
+  color: #9b7cb6;
 }
 
 .description {
   font-size: 1rem;
-  color: #e0e0e0;
+  color: #9b7cb6;
   margin-bottom: 2rem;
 }
 
@@ -55,7 +88,7 @@ h1 {
 }
 
 .btn {
-  background-color: #00ffaa;
+  background-color: #f8d7da;
   padding: 0.8rem;
   border-radius: 999px;
   text-decoration: none;
@@ -65,7 +98,7 @@ h1 {
 }
 
 .btn:hover {
-  background-color: #00e69e;
+  background-color: #9b7cb6;
 }
 
 footer {
